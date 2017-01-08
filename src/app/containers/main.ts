@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   template: `
     <div>
     <app-bar></app-bar>
-      <main>
-        content here
+      <main class="main">
+       <notes-container></notes-container>
       </main>
     </div>     
   `
