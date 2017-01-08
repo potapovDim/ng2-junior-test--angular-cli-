@@ -1,4 +1,4 @@
-import { Angular2JuniorTestPage } from './app.po';
+import { Angular2JuniorTestPage } from '../po/app.po';
 
 describe('angular2-junior-test App', function() {
   let page: Angular2JuniorTestPage;

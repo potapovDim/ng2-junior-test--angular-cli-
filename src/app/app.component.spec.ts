@@ -1,5 +1,7 @@
-/* tslint:disable:no-unused-variable */
+/*tslint disable*/
 
+import { AppBarComponent } from './ui/app-bar/app-bar';
+import { AppMainContainer } from './containers/main';
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
@@ -7,7 +9,9 @@ describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        AppMainContainer,
+        AppBarComponent
       ],
     });
     TestBed.compileComponents();
